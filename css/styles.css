@@ -1,0 +1,90 @@
+/* *{box-sizing: border-box;} */
+
+body{
+    background-color: whitesmoke;
+}
+
+.logoh1, h2, .capt-text{
+    color: #3C096C;
+    text-shadow: #5A189A 1px 1px 1px;
+}
+
+.logoh1{
+    font-size: 54px;
+}
+
+.logoh1:hover{
+    color: #7B2CBF;
+    text-shadow: #3C096C 1px 1px 1px;
+}
+
+.header-row{
+    border-bottom: 4px solid #9D4EDD;
+    margin-bottom: 10px;
+}
+
+.home-text, .about-text{
+    font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+}
+
+figcaption{
+    font-size: 24px;
+}
+
+.home-nav{
+    color: #9D4EDD;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.home-nav:hover{
+    color: #C77DFF;
+}
+
+.projects-card{
+    margin: 6px;
+    /* padding: 2px; */
+}
+
+.projects-card-link{
+    color: #3C096C;
+}
+
+.projects-card-link:hover{
+    color: #7B2CBF;
+}
+
+.projects-btn{
+    background-color: #3C096C;
+    color: #C77DFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.projects-btn:hover {
+    background-color: #C77DFF;
+    color: #3C096C;
+}
+
+.contact-us-section{
+    margin-top: 20px;
+    height: 100%;
+    color: #E0AAFF;
+    border-top: 12px solid #C77DFF;
+    background-color: #240046;
+}
+
+.contact-us-list-item{
+    /* margin: 18px; */
+    padding: 18px;
+    list-style-type: none;
+    font-size: calc(16px + (22 - 16) * ((100vw - 300px) / (1600 - 300)))
+}
+
+.contact-us-list-item a{
+    color: #C77DFF;
+}
+
+.contact-us-list-item a:hover{
+    color: #E0AAFF;
+}
