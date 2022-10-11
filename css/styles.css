@@ -1,5 +1,9 @@
 /* *{box-sizing: border-box;} */
 
+:root{
+    --logo: 'Silkscreen', cursive;
+}
+
 body{
     background-color: whitesmoke;
 }
@@ -11,6 +15,7 @@ body{
 
 .logoh1{
     font-size: 54px;
+    font-family: var(--logo);
 }
 
 .logoh1:hover{
